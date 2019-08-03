@@ -104,7 +104,7 @@ class AppointmentController {
       user: provider_id,
     });
 
-    return res.json({ appointment });
+    return res.json(appointment);
   }
 
   async delete(req, res) {
